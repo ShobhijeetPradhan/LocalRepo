@@ -1,0 +1,28 @@
+git user.name "User_Name"  --->set user name 
+git user.email "Email"     --->set email
+
+git clone HTTPS_link       ---> to copy code from git hub to vs code
+
+cd Folder_Name             --->To change current folder 
+cd ..                      --->To exist out of the current folder
+
+                           (Tab for autocomplete)
+
+clear                      --->clear the terminal
+
+ls                         --->ListFiles to show all files in the folder
+
+git status                 --->untracked    --->new files that git doesn't yet track
+                           --->modified     --->change in existing files
+                           --->staged       --->file is ready to be committed
+                           --->unmodified   --->unchanged in any files
+
+git add File_Name          --->git add .    --->to add all changed files
+                                            --->adds new or changed files in your working directory to the Git staging area
+git commit -m "some message"  --->it is the record of change 
+
+git push origin main       --->upload local repo content to remote repo
+
+git init                   --->used to create a new git repo
+
+mkdir Folder_Name          --->to make a new repo or folder
