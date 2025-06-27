@@ -23,6 +23,8 @@ git commit -m "some message"  --->it is the record of change
 
 git push origin main       --->upload local repo content to remote repo
 
+git pull origin main       --->used to fetch and download content from remote repo and immediately update the local repo to match that content
+
 git init                   --->used to create a new git repo
 
 mkdir Folder_Name          --->to make a new repo or folder
@@ -35,4 +37,23 @@ git branch                 --->to check branch
 
 git branch -M main         --->to rename branch
 
+git checkout Branch_Name   --->to navigate
+
+git checkout -b New_Branch_Name   --->to create new branch
+
+git branch -d Branch_Name  --->to delete branch
+
+git diff Branch_Name       --->to compare commits, branches, files and more
+
+git merge Branch_Name      --->to merge 2 branches
+
+git reset File_Name        --->staged changes i.e if it is just add 
+git reset 
+
+git reset HEAD~1           --->committed changes (for one commit)
+
+git reset Commit_Hash      --->committed changes (for many commits)
+git reset --hard Commit_Hash
+
+git log                    --->history
 
